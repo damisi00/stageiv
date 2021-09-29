@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&family=Mrs+Saint+Delafield&family=Open+Sans:wght@300;400&display=swap');
+
+*{
+    margin: 0!important;
+    padding: 0!important;
+    box-sizing: border-box!important;
+}
+body{
+    background: url(../images/bg-3.jpg)no-repeat;
+    background-size: cover;
+    font-family: 'Open Sans', Arial, sans-serif!important;
+    background-position: 80%;
+    height: auto!important;
+}
+.home:hover, button:hover{
+    background-color: rgba(101, 10, 109, 0.288);
+    text-decoration: none;
+    transition: all 0.3s ease-in-out; 
+
+   
+} 
+.disabled{
+    color:turquoise!important;
+}
+/* .navbar-toggler{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    height: 60px !important;
+    width: 60px !important;
+
+} */
+.navbar-toggle-icon{
+   background: url(../svgs/hamburger.svg) no-repeat;
+}
+h4{
+    font-family: 'Just Another Hand', cursive !important;
+}
+.sub-p{
+    font-family: 'Mrs Saint Delafield', cursive !important;
+}
+::placeholder{
+    color: lightgray!important;
+}
+.form-box, .form-area{
+    border-bottom: 1px solid white!important;
+    color:white!important;
+    outline: none!important;
+}
+.form-area{
+    padding-bottom: 5rem!important; 
+}
+.card img{
+
+}
