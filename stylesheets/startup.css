@@ -28,9 +28,8 @@ body{
 h4{
     font-family: 'Just Another Hand', cursive !important;
 }
-.sub-p{
-    font-family: cursive !important;
-}
+
+
 ::placeholder{
     color: lightgray!important;
 }
