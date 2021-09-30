@@ -21,15 +21,7 @@ body{
 } 
 .disabled{
     color:turquoise!important;
-}
-/* .navbar-toggler{
-    display: flex !important;
-    flex-direction: column !important;
-    justify-content: space-between !important;
-    height: 60px !important;
-    width: 60px !important;
 
-} */
 .navbar-toggle-icon{
    background: url(../svgs/hamburger.svg) no-repeat;
 }
@@ -37,7 +29,7 @@ h4{
     font-family: 'Just Another Hand', cursive !important;
 }
 .sub-p{
-    font-family: 'Mrs Saint Delafield', cursive !important;
+    font-family: cursive !important;
 }
 ::placeholder{
     color: lightgray!important;
@@ -49,7 +41,4 @@ h4{
 }
 .form-area{
     padding-bottom: 5rem!important; 
-}
-.card img{
-
 }
